@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+.navbar {
+  /* background-color: transparent !important; */
+  color: white;
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: bold; /* Make the text bold */
+}
+
+.navbar a:hover {
+  /* Add your custom styles for the navbar here */
+  .navbar {
+    background-color: transparent !important;
+    /* Add other styles as needed */
+  }
+
+  .navbar a.nav-link {
+    color: white !important;
+    /* Add other styles as needed */
+  }
+
+  .navbar a.nav-link:hover {
+    color: yellow !important;
+    text-decoration: underline;
+    /* Add other styles as needed */
+  }
+
+  color: #efb21d !important;
+}
+
+.navbar-toggler-icon {
+  background-color: white; /* Change the color of the navbar toggler icon */
+}
+
+/* Add any additional styles you need for the transparent navbar */
+.navbar-toggler-icon {
+  background-color: #8e797900;
+}
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+}

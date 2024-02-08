@@ -1,0 +1,176 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* color: white; */
+  font-family: "Montserrat", sans-serif;
+}
+.cont2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* LandingPage container styles */
+.landingpage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8); /* Darker overlay */
+  overflow: hidden; /* Hide overflowing content */
+  /* position: relative; */
+  animation: fadeIn 2s; /* Add fadeIn animation */
+}
+
+/* Video background styles */
+.video-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.5; /* Reduced opacity for a subtle effect */
+}
+
+/* Overlay styles */
+/* .bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+/* Hero section styles */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 93vw;
+  left: 5%;
+  position: absolute;
+}
+
+.top_cont_outer {
+  position: relative;
+  height: 100%; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+top_left_cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Hero section animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Stylish fonts for headers */
+.h2 {
+  font-size: 36px; /* Adjust font size */
+  font-weight: 700;
+  color: #efb21d; /* Header text color */
+  text-align: center;
+  margin-bottom: 20px;
+  animation: slideInUp 2s; /* Add slideInUp animation */
+}
+
+.top_left_cont h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff; /* Header text color */
+  text-align: center;
+  animation: slideInUp 2s; /* Add slideInUp animation */
+}
+
+/* Stylish underline */
+.underline {
+  width: 80px;
+  height: 2px;
+  background-color: #efb21d;
+  margin: 20px auto;
+}
+
+/* Read more button styles */
+a.read_more2 {
+  justify-content: center;
+  background: #efb21d;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  margin-top: auto; /* Move button to the center vertically */
+  transition: background 0.3s ease-in-out;
+  width: 250px;
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a.read_more2:hover {
+  background: #000;
+  color: #efb21d;
+}
+
+/* Add slideInUp animation */
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.navbar {
+  z-index: 1;
+}
+
+@media (max-width: 550px) {
+  .hero_section {
+    position: absolute;
+    left: 20px;
+    top: 250px;
+  }
+}
+
+.abcd {
+  font-size: 4rem;
+  font-weight: 700;
+  color: hsl(43, 87%, 53%);
+  text-align: center;
+  animation: slideInUp 2s;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
+}
+
+@keyframes text-flicker-in-glow {
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+      0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
