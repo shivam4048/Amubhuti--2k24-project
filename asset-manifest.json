@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Amubhuti--2k24-project/static/css/main.b7feb1a9.css",
+    "main.js": "/Amubhuti--2k24-project/static/js/main.a078cd1c.js",
+    "static/js/787.45751450.chunk.js": "/Amubhuti--2k24-project/static/js/787.45751450.chunk.js",
+    "index.html": "/Amubhuti--2k24-project/index.html",
+    "main.b7feb1a9.css.map": "/Amubhuti--2k24-project/static/css/main.b7feb1a9.css.map",
+    "main.a078cd1c.js.map": "/Amubhuti--2k24-project/static/js/main.a078cd1c.js.map",
+    "787.45751450.chunk.js.map": "/Amubhuti--2k24-project/static/js/787.45751450.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7feb1a9.css",
+    "static/js/main.a078cd1c.js"
+  ]
+}
